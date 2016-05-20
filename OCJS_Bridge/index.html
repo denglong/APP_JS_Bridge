@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+        function JSFunction(parameter)
+        {
+            //显示OC返回的值
+            document.getElementById('view').value = parameter;
+            
+            //返回成功的消息
+            var result = {'message':'Web程序已经收到消息！'};
+            return result;
+        }
+
+        function CallNative()
+        {
+            if (native)
+            {
+                //将当前显示的文本组装成对象发给OC
+                var consoleValue = document.getElementById('view').value;
+                var parameter = {'message':consoleValue};
+                var result = native.ocMethod(parameter);
+                
+                //显示OC返回的结果
+                document.getElementById('view').value = result['message'];
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <p>控制台:</p>
+        <textarea style="width: 100%" id="view" rows=5 cols=24>
+本地程序，你好，我是网页！
+        </textarea>
+        <input type=button value="发送消息" onClick="CallNative();">
+    </form>
+</body>
+
+</html>

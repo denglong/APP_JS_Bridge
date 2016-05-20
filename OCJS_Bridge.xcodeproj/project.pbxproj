@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0405D122185C8DA900F5294A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405D121185C8DA900F5294A /* Cocoa.framework */; };
+		0405D12C185C8DA900F5294A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0405D12A185C8DA900F5294A /* InfoPlist.strings */; };
+		0405D12E185C8DA900F5294A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405D12D185C8DA900F5294A /* main.m */; };
+		0405D132185C8DA900F5294A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0405D130185C8DA900F5294A /* Credits.rtf */; };
+		0405D135185C8DA900F5294A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405D134185C8DA900F5294A /* AppDelegate.m */; };
+		0405D138185C8DA900F5294A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0405D136185C8DA900F5294A /* MainMenu.xib */; };
+		0405D13A185C8DA900F5294A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405D139185C8DA900F5294A /* Images.xcassets */; };
+		0405D141185C8DA900F5294A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405D140185C8DA900F5294A /* XCTest.framework */; };
+		0405D142185C8DA900F5294A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405D121185C8DA900F5294A /* Cocoa.framework */; };
+		0405D14A185C8DAA00F5294A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0405D148185C8DAA00F5294A /* InfoPlist.strings */; };
+		0405D14C185C8DAA00F5294A /* OCJS_BridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405D14B185C8DAA00F5294A /* OCJS_BridgeTests.m */; };
+		0405D159185C90E400F5294A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405D158185C90E400F5294A /* WebKit.framework */; };
+		0405D15B185C935F00F5294A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0405D15A185C935F00F5294A /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0405D143185C8DA900F5294A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0405D116185C8DA900F5294A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0405D11D185C8DA900F5294A;
+			remoteInfo = OCJS_Bridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0405D11E185C8DA900F5294A /* OCJS_Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCJS_Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0405D121185C8DA900F5294A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0405D124185C8DA900F5294A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0405D125185C8DA900F5294A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0405D126185C8DA900F5294A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0405D129185C8DA900F5294A /* OCJS_Bridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCJS_Bridge-Info.plist"; sourceTree = "<group>"; };
+		0405D12B185C8DA900F5294A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0405D12D185C8DA900F5294A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0405D12F185C8DA900F5294A /* OCJS_Bridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCJS_Bridge-Prefix.pch"; sourceTree = "<group>"; };
+		0405D131185C8DA900F5294A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0405D133185C8DA900F5294A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0405D134185C8DA900F5294A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0405D137185C8DA900F5294A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0405D139185C8DA900F5294A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0405D13F185C8DA900F5294A /* OCJS_BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCJS_BridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0405D140185C8DA900F5294A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0405D147185C8DAA00F5294A /* OCJS_BridgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCJS_BridgeTests-Info.plist"; sourceTree = "<group>"; };
+		0405D149185C8DAA00F5294A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0405D14B185C8DAA00F5294A /* OCJS_BridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCJS_BridgeTests.m; sourceTree = "<group>"; };
+		0405D158185C90E400F5294A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0405D15A185C935F00F5294A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0405D11B185C8DA900F5294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D159185C90E400F5294A /* WebKit.framework in Frameworks */,
+				0405D122185C8DA900F5294A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0405D13C185C8DA900F5294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D142185C8DA900F5294A /* Cocoa.framework in Frameworks */,
+				0405D141185C8DA900F5294A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0405D115185C8DA900F5294A = {
+			isa = PBXGroup;
+			children = (
+				0405D127185C8DA900F5294A /* OCJS_Bridge */,
+				0405D145185C8DA900F5294A /* OCJS_BridgeTests */,
+				0405D120185C8DA900F5294A /* Frameworks */,
+				0405D11F185C8DA900F5294A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0405D11F185C8DA900F5294A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0405D11E185C8DA900F5294A /* OCJS_Bridge.app */,
+				0405D13F185C8DA900F5294A /* OCJS_BridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0405D120185C8DA900F5294A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0405D158185C90E400F5294A /* WebKit.framework */,
+				0405D121185C8DA900F5294A /* Cocoa.framework */,
+				0405D140185C8DA900F5294A /* XCTest.framework */,
+				0405D123185C8DA900F5294A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0405D123185C8DA900F5294A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0405D124185C8DA900F5294A /* AppKit.framework */,
+				0405D125185C8DA900F5294A /* CoreData.framework */,
+				0405D126185C8DA900F5294A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0405D127185C8DA900F5294A /* OCJS_Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				0405D15A185C935F00F5294A /* index.html */,
+				0405D133185C8DA900F5294A /* AppDelegate.h */,
+				0405D134185C8DA900F5294A /* AppDelegate.m */,
+				0405D136185C8DA900F5294A /* MainMenu.xib */,
+				0405D139185C8DA900F5294A /* Images.xcassets */,
+				0405D128185C8DA900F5294A /* Supporting Files */,
+			);
+			path = OCJS_Bridge;
+			sourceTree = "<group>";
+		};
+		0405D128185C8DA900F5294A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0405D129185C8DA900F5294A /* OCJS_Bridge-Info.plist */,
+				0405D12A185C8DA900F5294A /* InfoPlist.strings */,
+				0405D12D185C8DA900F5294A /* main.m */,
+				0405D12F185C8DA900F5294A /* OCJS_Bridge-Prefix.pch */,
+				0405D130185C8DA900F5294A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0405D145185C8DA900F5294A /* OCJS_BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0405D14B185C8DAA00F5294A /* OCJS_BridgeTests.m */,
+				0405D146185C8DAA00F5294A /* Supporting Files */,
+			);
+			path = OCJS_BridgeTests;
+			sourceTree = "<group>";
+		};
+		0405D146185C8DAA00F5294A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0405D147185C8DAA00F5294A /* OCJS_BridgeTests-Info.plist */,
+				0405D148185C8DAA00F5294A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0405D11D185C8DA900F5294A /* OCJS_Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0405D14F185C8DAA00F5294A /* Build configuration list for PBXNativeTarget "OCJS_Bridge" */;
+			buildPhases = (
+				0405D11A185C8DA900F5294A /* Sources */,
+				0405D11B185C8DA900F5294A /* Frameworks */,
+				0405D11C185C8DA900F5294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCJS_Bridge;
+			productName = OCJS_Bridge;
+			productReference = 0405D11E185C8DA900F5294A /* OCJS_Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0405D13E185C8DA900F5294A /* OCJS_BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0405D152185C8DAA00F5294A /* Build configuration list for PBXNativeTarget "OCJS_BridgeTests" */;
+			buildPhases = (
+				0405D13B185C8DA900F5294A /* Sources */,
+				0405D13C185C8DA900F5294A /* Frameworks */,
+				0405D13D185C8DA900F5294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0405D144185C8DA900F5294A /* PBXTargetDependency */,
+			);
+			name = OCJS_BridgeTests;
+			productName = OCJS_BridgeTests;
+			productReference = 0405D13F185C8DA900F5294A /* OCJS_BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0405D116185C8DA900F5294A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "http://www.tanhao.me";
+				TargetAttributes = {
+					0405D13E185C8DA900F5294A = {
+						TestTargetID = 0405D11D185C8DA900F5294A;
+					};
+				};
+			};
+			buildConfigurationList = 0405D119185C8DA900F5294A /* Build configuration list for PBXProject "OCJS_Bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0405D115185C8DA900F5294A;
+			productRefGroup = 0405D11F185C8DA900F5294A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0405D11D185C8DA900F5294A /* OCJS_Bridge */,
+				0405D13E185C8DA900F5294A /* OCJS_BridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0405D11C185C8DA900F5294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D15B185C935F00F5294A /* index.html in Resources */,
+				0405D12C185C8DA900F5294A /* InfoPlist.strings in Resources */,
+				0405D13A185C8DA900F5294A /* Images.xcassets in Resources */,
+				0405D132185C8DA900F5294A /* Credits.rtf in Resources */,
+				0405D138185C8DA900F5294A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0405D13D185C8DA900F5294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D14A185C8DAA00F5294A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0405D11A185C8DA900F5294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D135185C8DA900F5294A /* AppDelegate.m in Sources */,
+				0405D12E185C8DA900F5294A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0405D13B185C8DA900F5294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405D14C185C8DAA00F5294A /* OCJS_BridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0405D144185C8DA900F5294A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0405D11D185C8DA900F5294A /* OCJS_Bridge */;
+			targetProxy = 0405D143185C8DA900F5294A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0405D12A185C8DA900F5294A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0405D12B185C8DA900F5294A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0405D130185C8DA900F5294A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0405D131185C8DA900F5294A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0405D136185C8DA900F5294A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0405D137185C8DA900F5294A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0405D148185C8DAA00F5294A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0405D149185C8DAA00F5294A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0405D14D185C8DAA00F5294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0405D14E185C8DAA00F5294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0405D150185C8DAA00F5294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCJS_Bridge/OCJS_Bridge-Prefix.pch";
+				INFOPLIST_FILE = "OCJS_Bridge/OCJS_Bridge-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0405D151185C8DAA00F5294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCJS_Bridge/OCJS_Bridge-Prefix.pch";
+				INFOPLIST_FILE = "OCJS_Bridge/OCJS_Bridge-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0405D153185C8DAA00F5294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCJS_Bridge.app/Contents/MacOS/OCJS_Bridge";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCJS_Bridge/OCJS_Bridge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCJS_BridgeTests/OCJS_BridgeTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0405D154185C8DAA00F5294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCJS_Bridge.app/Contents/MacOS/OCJS_Bridge";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCJS_Bridge/OCJS_Bridge-Prefix.pch";
+				INFOPLIST_FILE = "OCJS_BridgeTests/OCJS_BridgeTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0405D119185C8DA900F5294A /* Build configuration list for PBXProject "OCJS_Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405D14D185C8DAA00F5294A /* Debug */,
+				0405D14E185C8DAA00F5294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0405D14F185C8DAA00F5294A /* Build configuration list for PBXNativeTarget "OCJS_Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405D150185C8DAA00F5294A /* Debug */,
+				0405D151185C8DAA00F5294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0405D152185C8DAA00F5294A /* Build configuration list for PBXNativeTarget "OCJS_BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405D153185C8DAA00F5294A /* Debug */,
+				0405D154185C8DAA00F5294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0405D116185C8DA900F5294A /* Project object */;
+}
